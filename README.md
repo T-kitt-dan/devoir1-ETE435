@@ -112,4 +112,4 @@ jupyter lab devoir1_ETE435.ipynb
 ## Aide externe
 
 - Documentation officielle : pandas, geopandas, shapely, folium
-- Assistance IA : Claude Code (Anthropic) — vérification de la cohérence du pipeline
+- Assistance IA : Claude (Anthropic) — vérification de la cohérence du pipeline
