@@ -14,10 +14,10 @@
 
 Ce dépôt contient la solution complète du Devoir 1 du cours ETE435 - Géoinformatique. L'objectif est de développer une classe Python `Aeroports` permettant de manipuler et analyser des données géographiques d'aéroports canadiens, en réalisant :
 
-1. **Préparation des données** — nettoyage et validation du CSV source
-2. **LineString** — parcours reliant 3 aéroports sélectionnés automatiquement
-3. **Polygon** — zone polygonale construite à partir des mêmes aéroports
-4. **Analyse spatiale** — vérification qu'un aéroport aléatoire se trouve ou non à l'intérieur du polygone
+1. **Préparation des données** : nettoyage et validation du CSV source
+2. **LineString** : parcours reliant 3 aéroports sélectionnés automatiquement
+3. **Polygon** : zone polygonale construite à partir des mêmes aéroports
+4. **Analyse spatiale** : vérification qu'un aéroport aléatoire se trouve ou non à l'intérieur du polygone
 
 ## Structure du dépôt
 
