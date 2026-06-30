@@ -1,6 +1,6 @@
-# Devoir 1 — ETE435 Géoinformatique
+# Devoir 1 : ETE435 Géoinformatique
 
-**Titre :** Ingénierie des données géospatiales — Classe `Aeroports`, LineString, Polygon et analyse de proximité
+**Titre :** Ingénierie des données géospatiales : Classe `Aeroports`, LineString, Polygon et analyse de proximité
 
 **Auteurs :**
 - Alan CASSEUS, Mémorant en Sciences de l'Environnement (FSTEAT/CHCL-UEH)
@@ -10,8 +10,6 @@
 **Date de soumission :** 29 Juin 2026  
 **Institution :** Campus Henry Christophe de l'Université d'État d'Haïti à Limonade (CHC-UEH-L)
 
----
-
 ## Description
 
 Ce dépôt contient la solution complète du Devoir 1 du cours ETE435 - Géoinformatique. L'objectif est de développer une classe Python `Aeroports` permettant de manipuler et analyser des données géographiques d'aéroports canadiens, en réalisant :
@@ -20,8 +18,6 @@ Ce dépôt contient la solution complète du Devoir 1 du cours ETE435 - Géoinfo
 2. **LineString** — parcours reliant 3 aéroports sélectionnés automatiquement
 3. **Polygon** — zone polygonale construite à partir des mêmes aéroports
 4. **Analyse spatiale** — vérification qu'un aéroport aléatoire se trouve ou non à l'intérieur du polygone
-
----
 
 ## Structure du dépôt
 
@@ -34,8 +30,6 @@ devoir1-ETE435/
 ├── requirements.txt              # Environnement Python reproductible
 └── README.md                     # Ce fichier
 ```
-
----
 
 ## Résultats du nettoyage
 
@@ -54,8 +48,6 @@ devoir1-ETE435/
 - **CYFH** : longitude = `-150.0` (hors des limites canadiennes)
 - **CYGZ** : latitude = `92.568` (physiquement impossible — max 90°N)
 
----
-
 ## Aéroports sélectionnés pour le LineString / Polygon
 
 | Ident | Nom | Latitude | Longitude |
@@ -64,15 +56,11 @@ devoir1-ETE435/
 | CYYZ | Toronto Pearson International | 43.6759°N | 79.6294°O |
 | CYYC | Calgary International | 51.1188°N | 114.0099°O |
 
----
-
 ## Résultat de l'analyse de proximité
 
 - **Aéroport aléatoire (seed=42)** : CYFR — Fort Resolution Airport
 - **Position** : 61.1808°N, 113.6900°O
 - **Résultat** : EXTÉRIEUR du polygone
-
----
 
 ## Reproductibilité
 
@@ -94,9 +82,6 @@ pip install -r requirements.txt
 # Lancer le notebook
 jupyter lab devoir1_ETE435.ipynb
 ```
-
----
-
 ## Bibliothèques utilisées
 
 | Bibliothèque | Version | Rôle |
@@ -106,8 +91,6 @@ jupyter lab devoir1_ETE435.ipynb
 | shapely | 2.1.2 | Géométries Point, LineString, Polygon |
 | folium | 0.20.0 | Visualisation cartographique interactive |
 | numpy | 2.4.3 | Calculs numériques |
-
----
 
 ## Aide externe
 
