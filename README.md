@@ -46,7 +46,7 @@ devoir1-ETE435/
 - **CAZ5** : longitude = `'ETE435'` (code du cours inséré par erreur)
 - **CYVR, CYOW, CYHZ, CYYT, CYQA** : latitude = `-50.567` (valeur aberrante répétée)
 - **CYFH** : longitude = `-150.0` (hors des limites canadiennes)
-- **CYGZ** : latitude = `92.568` (physiquement impossible — max 90°N)
+- **CYGZ** : latitude = `92.568` (physiquement impossible : max 90°N)
 
 ## Aéroports sélectionnés pour le LineString / Polygon
 
@@ -58,7 +58,7 @@ devoir1-ETE435/
 
 ## Résultat de l'analyse de proximité
 
-- **Aéroport aléatoire (seed=42)** : CYFR — Fort Resolution Airport
+- **Aéroport aléatoire (seed=42)** : CYFR - Fort Resolution Airport
 - **Position** : 61.1808°N, 113.6900°O
 - **Résultat** : EXTÉRIEUR du polygone
 
